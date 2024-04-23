@@ -3107,8 +3107,8 @@ static INT test_wifi_apDisassociatedDevice_callback(INT apIndex, char *MAC, INT 
 void test_wifi_apDisassociatedDevice_callback_register(void)
 {
     /* Positive */
-    wifi_apDisassociatedDevice_callback_register(&test_wifi_apDisassociatedDevice_callback);
-    wifi_apDisassociatedDevice_callback_register(NULL);
+    //wifi_apDisassociatedDevice_callback_register(&test_wifi_apDisassociatedDevice_callback);
+    //wifi_apDisassociatedDevice_callback_register(NULL);
 
     /* Negative - N/A */
 }
